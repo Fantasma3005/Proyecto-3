@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Piano.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="16.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido1" text="01" />
+      <Button layoutX="54.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido2" text="02" />
+      <Button layoutX="92.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido3" text="03" />
+      <Button layoutX="126.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido4" text="04" />
+      <Button layoutX="160.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido5" text="05" />
+      <Button layoutX="194.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido6" text="06" />
+      <Button layoutX="228.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido7" text="07" />
+      <Button layoutX="262.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido8" text="08" />
+      <Button layoutX="296.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido9" text="09" />
+      <Button layoutX="331.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido10" text="10" />
+      <Button layoutX="370.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido11" text="11" />
+      <Button layoutX="406.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido12" text="12" />
+      <Button layoutX="440.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido13" text="13" />
+      <Button layoutX="475.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido14" text="14" />
+      <Button layoutX="510.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido15" text="15" />
+      <Button layoutX="545.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido16" text="16" />
+   </children>
+</Pane>
