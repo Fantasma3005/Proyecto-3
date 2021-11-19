@@ -1,4 +1,9 @@
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.LineUnavailableException;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.image.ImageView;
@@ -14,8 +19,13 @@ public class Controller {
 	@FXML
 	private ImageView color,color2,color3,color4,color5,color6,color7,color8,color9,color10,color11,color12,color13,color14,color15,color16;
 	
+	
 
 	
+	public void Espera() throws InterruptedException {
+		Thread color = new Thread();
+		Thread.sleep(1000);
+	}
 	public void Sonido1(ActionEvent event){
 		
 		Sonido sonido_1 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio1.wav");
@@ -30,7 +40,7 @@ public class Controller {
 	}
 		
 
-	public void Sonido2(ActionEvent event){
+	public void Sonido2(ActionEvent event) throws InterruptedException{
 		
 		Sonido sonido_2 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio2.wav");
 		Thread hilo = new Thread(sonido_2);
@@ -41,6 +51,7 @@ public class Controller {
 			else{
 				color2.setVisible(false);
 			}
+		Espera();
 	}
 
 	
@@ -249,8 +260,8 @@ public class Controller {
 
 	
 	}
-	public void teclasPanel(KeyEvent evt){
-		if(evt.getCode()==KeyCode.Q) {
+	public void teclasPanel(KeyEvent tecla){
+		if(tecla.getCode()==KeyCode.Q) {
 			Sonido sonido_1 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio1.wav");
 			Thread hilo = new Thread(sonido_1);
 			hilo.start();
@@ -261,7 +272,7 @@ public class Controller {
 					color.setVisible(true);
 				}
 		}
-		else if(evt.getCode()==KeyCode.W) {
+		else if(tecla.getCode()==KeyCode.W) {
 			Sonido sonido_2 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio2.wav");
 			Thread hilo = new Thread(sonido_2);
 			hilo.start();
@@ -272,7 +283,7 @@ public class Controller {
 					color2.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.E) {
+		else if(tecla.getCode()==KeyCode.E) {
 			Sonido sonido_3 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio3.wav");
 			Thread hilo = new Thread(sonido_3);
 			hilo.start();
@@ -283,7 +294,7 @@ public class Controller {
 					color3.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.R) {
+		else if(tecla.getCode()==KeyCode.R) {
 			Sonido sonido_4 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio4.wav");
 			Thread hilo = new Thread(sonido_4);
 			hilo.start();
@@ -294,7 +305,7 @@ public class Controller {
 					color4.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.T) {
+		else if(tecla.getCode()==KeyCode.T) {
 			Sonido sonido_5 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio5.wav");
 			Thread hilo = new Thread(sonido_5);
 			hilo.start();
@@ -305,7 +316,7 @@ public class Controller {
 					color5.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.Y) {
+		else if(tecla.getCode()==KeyCode.Y) {
 			Sonido sonido_6 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio6.wav");
 			Thread hilo = new Thread(sonido_6);
 			hilo.start();
@@ -316,7 +327,7 @@ public class Controller {
 					color6.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.U) {
+		else if(tecla.getCode()==KeyCode.U) {
 			Sonido sonido_7 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio7.wav");
 			Thread hilo = new Thread(sonido_7);
 			hilo.start();
@@ -327,7 +338,7 @@ public class Controller {
 					color7.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.I) {
+		else if(tecla.getCode()==KeyCode.I) {
 			Sonido sonido_8 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio8.wav");
 			Thread hilo = new Thread(sonido_8);
 			hilo.start();
@@ -338,7 +349,7 @@ public class Controller {
 					color8.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.O) {
+		else if(tecla.getCode()==KeyCode.O) {
 			Sonido sonido_9 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio9.wav");
 			Thread hilo = new Thread(sonido_9);
 			hilo.start();
@@ -349,7 +360,7 @@ public class Controller {
 					color9.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.P) {
+		else if(tecla.getCode()==KeyCode.P) {
 			Sonido sonido_10 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio10.wav");
 			Thread hilo = new Thread(sonido_10);
 			hilo.start();
@@ -360,7 +371,7 @@ public class Controller {
 					color10.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.A) {
+		else if(tecla.getCode()==KeyCode.A) {
 			Sonido sonido_11 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio11.wav");
 			Thread hilo = new Thread(sonido_11);
 			hilo.start();
@@ -371,7 +382,7 @@ public class Controller {
 					color11.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.S) {
+		else if(tecla.getCode()==KeyCode.S) {
 			Sonido sonido_12 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio12.wav");
 			Thread hilo = new Thread(sonido_12);
 			hilo.start();
@@ -382,7 +393,7 @@ public class Controller {
 					color12.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.D) {
+		else if(tecla.getCode()==KeyCode.D) {
 			Sonido sonido_13 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio13.wav");
 			Thread hilo = new Thread(sonido_13);
 			hilo.start();
@@ -393,7 +404,7 @@ public class Controller {
 					color13.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.F) {
+		else if(tecla.getCode()==KeyCode.F) {
 			Sonido sonido_14 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio14.wav");
 			Thread hilo = new Thread(sonido_14);
 			hilo.start();
@@ -404,7 +415,7 @@ public class Controller {
 					color14.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.G) {
+		else if(tecla.getCode()==KeyCode.G) {
 			Sonido sonido_15 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio15.wav");
 			Thread hilo = new Thread(sonido_15);
 			hilo.start();
@@ -415,7 +426,7 @@ public class Controller {
 					color15.setVisible(false);
 				}
 		}
-		else if(evt.getCode()==KeyCode.H) {
+		else if(tecla.getCode()==KeyCode.H) {
 			Sonido sonido_16 = new Sonido("platillo","C:\\Users\\Fantasma3005\\Downloads\\Proyecto_3\\Audios\\audio16.wav");
 			Thread hilo = new Thread(sonido_16);
 			hilo.start();
