@@ -12,6 +12,171 @@
             <Image url="@../../Imagenes/Piano.jpg" />
          </image>
       </ImageView>
+      <ImageView fx:id="color" fitHeight="26.0" fitWidth="27.0" layoutX="19.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Amarillo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color" fitHeight="26.0" fitWidth="27.0" layoutX="19.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color2" fitHeight="26.0" fitWidth="27.0" layoutX="55.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Morado.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color2" fitHeight="26.0" fitWidth="27.0" layoutX="55.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color3" fitHeight="26.0" fitWidth="27.0" layoutX="89.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/verde.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color3" fitHeight="26.0" fitWidth="27.0" layoutX="89.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color4" fitHeight="26.0" fitWidth="27.0" layoutX="124.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/turquesa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color4" fitHeight="26.0" fitWidth="27.0" layoutX="124.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color5" fitHeight="26.0" fitWidth="27.0" layoutX="158.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/marron.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color5" fitHeight="26.0" fitWidth="27.0" layoutX="158.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color6" fitHeight="26.0" fitWidth="27.0" layoutX="193.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Azul.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color6" fitHeight="26.0" fitWidth="27.0" layoutX="193.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color7" fitHeight="26.0" fitWidth="27.0" layoutX="228.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Patel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color7" fitHeight="26.0" fitWidth="27.0" layoutX="228.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Lima.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color7" fitHeight="26.0" fitWidth="27.0" layoutX="228.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color8" fitHeight="26.0" fitWidth="27.0" layoutX="263.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Fucia.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color8" fitHeight="26.0" fitWidth="27.0" layoutX="263.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color9" fitHeight="26.0" fitWidth="27.0" layoutX="297.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/VerdeCian.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color9" fitHeight="26.0" fitWidth="27.0" layoutX="297.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color10" fitHeight="26.0" fitWidth="27.0" layoutX="332.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Melon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color10" fitHeight="26.0" fitWidth="27.0" layoutX="332.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color11" fitHeight="26.0" fitWidth="27.0" layoutX="368.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Oliva.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color11" fitHeight="26.0" fitWidth="27.0" layoutX="368.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color12" fitHeight="26.0" fitWidth="27.0" layoutX="402.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Vino.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color12" fitHeight="26.0" fitWidth="27.0" layoutX="402.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color13" fitHeight="26.0" fitWidth="27.0" layoutX="437.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rosado.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color13" fitHeight="26.0" fitWidth="27.0" layoutX="437.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color14" fitHeight="26.0" fitWidth="27.0" layoutX="471.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Purpura.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color14" fitHeight="26.0" fitWidth="27.0" layoutX="471.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color15" fitHeight="26.0" fitWidth="27.0" layoutX="506.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Gris.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color15" fitHeight="26.0" fitWidth="27.0" layoutX="506.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color16" fitHeight="26.0" fitWidth="27.0" layoutX="540.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Naranja.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="color16" fitHeight="26.0" fitWidth="27.0" layoutX="540.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Rojo.jpg" />
+         </image>
+      </ImageView>
       <Button layoutX="16.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido1" text="01" />
       <Button layoutX="54.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido2" text="02" />
       <Button layoutX="92.0" layoutY="364.0" mnemonicParsing="false" onAction="#Sonido3" text="03" />
